@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace WarriorProof.Contacts.Models
+namespace WarriorProof.Contracts.Models
 {
     public class Trucks
     {

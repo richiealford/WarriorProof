@@ -19,7 +19,6 @@
     <Folder Include="Mappings\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WarriorProof.Contacts\WarriorProof.Contacts.csproj" />
     <ProjectReference Include="..\WarriorProof.Business\WarriorProof.Business.csproj" />
     <ProjectReference Include="..\WarriorProof.DBRepository\WarriorProof.DBRepository.csproj" />
   </ItemGroup>

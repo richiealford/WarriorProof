@@ -1,7 +1,7 @@
 ﻿using System;
-using WarriorProof.Contacts.Models;
+using WarriorProof.Contracts.Models;
 
-namespace WarriorProof.Contacts.Interfaces.Services
+namespace WarriorProof.Contracts.Interfaces.Services
 {
     public interface IUserService
     {

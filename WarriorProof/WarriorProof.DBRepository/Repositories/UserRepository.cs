@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
-using WarriorProof.Contacts.Interfaces.Repositories;
-using WarriorProof.Contacts.Models;
+using WarriorProof.Contracts.Interfaces.Repositories;
+using WarriorProof.Contracts.Models;
 
 namespace WarriorProof.DBRepository.Repositories
 {

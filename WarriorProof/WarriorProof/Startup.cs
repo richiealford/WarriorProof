@@ -10,12 +10,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using WarriorProof.Business.Services;
-using WarriorProof.Contacts.Interfaces.Services;
+using WarriorProof.Contracts.Interfaces.Services;
 using Microsoft.EntityFrameworkCore;
 using WarriorProof.DBRepository;
-using WarriorProof.Contacts.Interfaces.Repositories;
+using WarriorProof.Contracts.Interfaces.Repositories;
 using WarriorProof.DBRepository.Repositories;
-using WarriorProof.Contacts.Models;
+using WarriorProof.Contracts.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace WarriorProof

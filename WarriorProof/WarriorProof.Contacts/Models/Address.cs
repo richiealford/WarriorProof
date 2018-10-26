@@ -1,5 +1,5 @@
 ﻿using System;
-namespace WarriorProof.Contacts.Models
+namespace WarriorProof.Contracts.Models
 {
     public class Address
     {

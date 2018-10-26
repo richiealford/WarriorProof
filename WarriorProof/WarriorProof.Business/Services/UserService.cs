@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using WarriorProof.Contacts.Interfaces.Repositories;
-using WarriorProof.Contacts.Interfaces.Services;
-using WarriorProof.Contacts.Models;
+using WarriorProof.Contracts.Interfaces.Repositories;
+using WarriorProof.Contracts.Interfaces.Services;
+using WarriorProof.Contracts.Models;
 
 namespace WarriorProof.Business.Services
 {

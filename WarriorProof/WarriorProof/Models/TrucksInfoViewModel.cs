@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using WarriorProof.Contacts.Enumerations;
+using WarriorProof.Contracts.Enumerations;
 
 namespace WarriorProof.Models
 {

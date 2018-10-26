@@ -1,5 +1,5 @@
 ﻿using System;
-namespace WarriorProof.Contacts.Enumerations
+namespace WarriorProof.Contracts.Enumerations
 {
     public enum LineOfBusiness
     {

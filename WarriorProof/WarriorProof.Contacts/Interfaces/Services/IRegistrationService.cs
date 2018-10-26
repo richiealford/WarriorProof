@@ -1,5 +1,5 @@
 ﻿using System;
-namespace WarriorProof.Contacts.Interfaces.Services
+namespace WarriorProof.Contracts.Interfaces.Services
 {
     public interface IRegistrationService
     {

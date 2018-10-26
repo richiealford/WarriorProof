@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarriorProof", "WarriorProo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarriorProof.Business", "WarriorProof.Business\WarriorProof.Business.csproj", "{20A429C3-7B62-434A-A83B-6B75CBB7971C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarriorProof.Contacts", "WarriorProof.Contacts\WarriorProof.Contacts.csproj", "{429C0CBE-6F34-4E4A-92E0-F9FB99D34F1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarriorProof.Contracts", "WarriorProof.Contacts\WarriorProof.Contracts.csproj", "{429C0CBE-6F34-4E4A-92E0-F9FB99D34F1D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarriorProof.DBRepository", "WarriorProof.DBRepository\WarriorProof.DBRepository.csproj", "{C223988B-6955-4AC4-9953-73BAE2DA0F76}"
 EndProject

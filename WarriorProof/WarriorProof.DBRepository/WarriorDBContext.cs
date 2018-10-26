@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using WarriorProof.Contacts.Models;
+using WarriorProof.Contracts.Models;
 
 namespace WarriorProof.DBRepository
 {

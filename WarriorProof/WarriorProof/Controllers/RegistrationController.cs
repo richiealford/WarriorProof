@@ -8,10 +8,10 @@ using Microsoft.AspNetCore.Http;
 using WarriorProof.Extensions;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using AutoMapper;
-using WarriorProof.Contacts.Models;
+using WarriorProof.Contracts.Models;
 using WarriorProof.Mappings;
-using WarriorProof.Contacts.Interfaces.Services;
-using WarriorProof.Contacts.Enumerations;
+using WarriorProof.Contracts.Interfaces.Services;
+using WarriorProof.Contracts.Enumerations;
 
 namespace WarriorProof.Controllers
 {

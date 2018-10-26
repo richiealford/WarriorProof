@@ -1,5 +1,5 @@
 ﻿using System;
-using WarriorProof.Contacts.Models;
+using WarriorProof.Contracts.Models;
 using WarriorProof.Models;
 using System.Linq;
 using System.Collections.Generic;

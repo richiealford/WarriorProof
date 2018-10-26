@@ -10,12 +10,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WarriorProof.Contacts\WarriorProof.Contacts.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <Folder Include="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Repositories\LineOfBusinessRepository.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WarriorProof.Contacts\WarriorProof.Contracts.csproj" />
   </ItemGroup>
 </Project>

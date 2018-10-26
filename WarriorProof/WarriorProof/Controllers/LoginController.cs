@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Mvc;
-using WarriorProof.Contacts.Interfaces.Services;
+using WarriorProof.Contracts.Interfaces.Services;
 using WarriorProof.Models;
 
 namespace WarriorProof.Controllers
