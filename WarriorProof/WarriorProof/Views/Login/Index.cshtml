@@ -1,0 +1,28 @@
+﻿@model WarriorProof.Models.LoginViewModel
+
+<h3>Sign In to your account</h3>
+<form asp-controller="Login" asp-action="TryLogin" method="post">
+
+    <div>
+        <span class="text-danger">@ViewBag.AuthMessage</span>
+    </div>
+
+    <div class="warrior-field">
+        <input asp-for="UserName" class="form-control" placeholder="username" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="UserName" data-valmsg-replace="true"></span>
+    </div>
+
+    <div class="warrior-field">
+        <input asp-for="Password" class="form-control" placeholder="password" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="Password" data-valmsg-replace="true"></span>
+    </div>
+
+
+    <div class="warrior-button-group">
+        <input type="submit" class="btn btn-primary " value="SIGN IN" />
+        <a class="btn btn-primary" asp-controller="Registration" asp-action="PersonalInformation" role="button">REGISTRATION</a>
+    </div>
+
+</form>

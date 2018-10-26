@@ -1,0 +1,67 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: lightgray;
+}
+
+.body-content {
+    margin-top:100px;
+    max-width: 400px;
+    width: 400px;
+    background-color:white;
+    border-top-color:green;
+    border-top-width:50px;
+    border-top-style:solid;
+}
+
+
+.warrior-field {
+    margin-bottom: 10px;
+}
+
+.warrior-button-group {
+    text-align: center;
+    width: 100%;
+}
+
+h3 {
+    position: relative;
+    font-size: 13px;
+    font-style: italic;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+    color: gray;
+
+}
+
+h3:before {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 45%;
+    height: 1px;
+    content: '\a0';
+    background-color: lightgray;
+}
+
+h3:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    margin-left:20px;
+    width:50%;
+    height: 1px;
+    content: '\a0';
+    background-color: lightgray;
+}
+
+h3:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+.btn-primary {
+    color:white;
+    background-color:green;
+}

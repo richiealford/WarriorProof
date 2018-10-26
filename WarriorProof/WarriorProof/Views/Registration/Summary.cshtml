@@ -1,0 +1,23 @@
+﻿@model WarriorProof.Models.RegistrationViewModel
+
+<h3>Summary Info</h3>
+<h4>Personal Info</h4>
+<p>@Model.PersonalInfo.FirstName @Model.PersonalInfo.LastName</p>
+<p>@Model.PersonalInfo.EmailAddress</p>
+<p>@Model.PersonalInfo.PhoneNumber</p>
+<h4>Company Info</h4>
+<p>@Model.CompanyInfo.CompanyName</p>
+<p>@Model.CompanyInfo.EmailAddress</p>
+<p>@Model.CompanyInfo.PhoneNumber</p>
+<h5>Company Address</h5>
+<p>@Model.CompanyInfo.AddressLine1</p>
+<p>@Model.CompanyInfo.AddressLine2</p>
+<p>@Model.CompanyInfo.City, @Model.CompanyInfo.State, @Model.CompanyInfo.ZipCode</p>
+
+<h4>Trucks Information</h4>
+<p>@Model.TrucksInfo.NumberOfTrucks</p>
+<p>@Model.TrucksInfo.FormattedLOBS</p>
+
+
+<a class="btn btn-primary" asp-controller="Login" asp-action="Index" role="button">Continue to Login</a>
+

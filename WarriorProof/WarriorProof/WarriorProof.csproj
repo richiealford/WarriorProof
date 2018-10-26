@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.jQuery.Unobtrusive.Validation" Version="3.2.11" />
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="5.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Login\" />
+    <Folder Include="Views\WarriorLand\" />
+    <Folder Include="Views\Registration\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Mappings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WarriorProof.Contacts\WarriorProof.Contacts.csproj" />
+    <ProjectReference Include="..\WarriorProof.Business\WarriorProof.Business.csproj" />
+    <ProjectReference Include="..\WarriorProof.DBRepository\WarriorProof.DBRepository.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\HomeController.cs" />
+    <Compile Remove="Mappings\WarriorMappingProfile.cs" />
+    <Compile Remove="Seed\SeedWarriorDB.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Home\About.cshtml" />
+    <Content Remove="Views\Shared\_CookieConsentPartial.cshtml" />
+  </ItemGroup>
+</Project>

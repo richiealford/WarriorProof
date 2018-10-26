@@ -1,0 +1,19 @@
+﻿@model WarriorProof.Models.TrucksInfoViewModel
+
+<h3>Trucks Information</h3>
+<form asp-controller="Registration" asp-action="TrucksInformation" method="post">
+    <div class="warrior-field">
+        <input asp-for="NumberOfTrucks" class="form-control" placeholder="Number of Trucks" min="0" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="NumberOfTrucks" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <select asp-for="LineOfBusinesses" class="form-control" multiple="multipule"
+            asp-items="ViewBag.LineOfBusinesses"></select>
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="LineOfBusinesses" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-button-group">
+        <input type="submit" class="btn btn-primary " value="NEXT" />
+    </div>
+</form>

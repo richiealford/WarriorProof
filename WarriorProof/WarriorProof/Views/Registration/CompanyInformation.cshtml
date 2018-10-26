@@ -1,0 +1,49 @@
+﻿@model WarriorProof.Models.CompanyInfoViewModel
+
+<h3>Company Information</h3>
+<form asp-controller="Registration" asp-action="CompanyInformation" method="post">
+    <div class="warrior-field">
+        <input asp-for="CompanyName" class="form-control" placeholder="Company Name" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="CompanyName" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <input asp-for="AddressLine1" class="form-control" placeholder="Address" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="AddressLine1" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <input asp-for="AddressLine2" class="form-control" placeholder="Address2" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="AddressLine2" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <input asp-for="City" class="form-control" placeholder="City" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="City" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <input asp-for="State" class="form-control" placeholder="State" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="City" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <input asp-for="ZipCode" class="form-control" placeholder="Zip" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="ZipCode" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <input asp-for="PhoneNumber" class="form-control" placeholder="Company Phone" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <input asp-for="EmailAddress" class="form-control" placeholder="Company Email" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-button-group">
+        <input type="submit" class="btn btn-primary " value="NEXT" />
+    </div>
+
+</form>

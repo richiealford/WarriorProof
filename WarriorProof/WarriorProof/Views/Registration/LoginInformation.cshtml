@@ -1,0 +1,23 @@
+﻿@model WarriorProof.Models.LoginInfoViewModel
+
+<h3>Login Information</h3>
+<form asp-controller="Registration" asp-action="LoginInformation" method="post">
+    <div class="warrior-field">
+        <input asp-for="UserName" class="form-control" placeholder="Username" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="UserName" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <input asp-for="Password" class="form-control" placeholder="Password" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="Password" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <input asp-for="PasswordConfirm" class="form-control" placeholder="Password" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="PasswordConfirm" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-button-group">
+        <input type="submit" class="btn btn-primary " value="CREATE" />
+    </div>
+</form>

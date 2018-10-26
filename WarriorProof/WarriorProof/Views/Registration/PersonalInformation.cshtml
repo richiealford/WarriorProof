@@ -1,0 +1,29 @@
+﻿@model WarriorProof.Models.PersonalInfoViewModel
+
+<h3>Personal Information</h3>
+<form asp-controller="Registration" asp-action="PersonalInformation" method="post">
+    <div class="warrior-field">
+        <input asp-for="FirstName" class="form-control" placeholder="First Name" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <input asp-for="LastName" class="form-control" placeholder="Last Name" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <input asp-for="PhoneNumber" class="form-control" placeholder="Contact Phone" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="PhoneNumber" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-field">
+        <input asp-for="EmailAddress" class="form-control" placeholder="Email" />
+        <span class="text-danger field-validation-valid"
+              data-valmsg-for="EmailAddress" data-valmsg-replace="true"></span>
+    </div>
+    <div class="warrior-button-group">
+        <input type="submit" class="btn btn-primary " value="NEXT" />
+    </div>
+
+</form>
