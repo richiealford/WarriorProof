@@ -1,6 +1,4 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
-using WarriorProof.Contracts.Interfaces.Repositories;
+﻿using WarriorProof.Contracts.Interfaces.Repositories;
 using WarriorProof.Contracts.Interfaces.Services;
 using WarriorProof.Contracts.Models;
 

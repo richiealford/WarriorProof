@@ -16,6 +16,9 @@
     <Compile Remove="Repositories\LineOfBusinessRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WarriorProof.Contacts\WarriorProof.Contracts.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WarriorProof.Contracts\WarriorProof.Contracts.csproj" />
   </ItemGroup>
 </Project>
